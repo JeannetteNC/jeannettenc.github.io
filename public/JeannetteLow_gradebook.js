@@ -1,17 +1,15 @@
-//TODO: Fetch data from the PostgreSQL database (to be implemented later)
-function fetchGradeData() {
-    //This function will query the PostgreSQL database and return grade data
-    console.log("Fetching grade data...");
-}
+{
+    // This file is for configuring the debugger in Visual Studio Code
+    // For more information, visit: https://code.visualstudio.com/docs/editor/debugging
 
-//TODO: Populate the table with grade data
-function populateGradebook (data) {
-    //This function will take the fetched grade data and populate the table
-    console.log("Populating gradebook with data:", data);
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
 }
-
-//TODO REMOVE THIS
-// Call the stubs to demonstate the workflow
-const gradeData = fetchGradeData();
-populateGradebook(gradeData);
-//END REMOVE
